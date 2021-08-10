@@ -1,3 +1,3 @@
 # Semi-Google translator 
-### traslate words from any language to any language
+### Traslate words from any language to any language
 #### by Parna Asadi
