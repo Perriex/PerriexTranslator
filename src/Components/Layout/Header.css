@@ -1,0 +1,54 @@
+.topnav {
+    position: fixed;
+    top:0;
+    overflow: hidden;
+    width: 100%;
+    padding:0 150px;
+    background-color: #42A5F5;
+    align-items: center;
+    box-shadow: 0 2px 2px 0 rgb(0 0 0 / 14%), 0 3px 1px -2px rgb(0 0 0 / 12%), 0 1px 5px 0 rgb(0 0 0 / 20%);
+}
+  
+.topnav a{
+    float: left;
+    display: block;
+    color: #f2f2f2;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+    font-size: 16px;
+    transition: background-color .3s;
+}
+.topnav .access{
+    margin-right: 70px;
+}
+.topnav .access a{
+    float: right;
+}
+  
+.topnav a:hover {
+    background-color: #398bcf;
+}
+
+.topnav a.home {
+    font-size: 24px;
+}
+  
+.topnav .icon {
+    display: none;
+}
+  
+@media screen and (max-width: 600px) {
+    .topnav .access {display: none;}
+    .topnav a.icon {
+      float: left;
+      display: block;
+    }
+}
+  
+@media screen and (max-width: 600px) {
+    .topnav {
+        width: 100%;
+        padding:0 20px;
+    }
+}
